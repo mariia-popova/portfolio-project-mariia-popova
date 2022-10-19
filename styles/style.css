@@ -1,15 +1,41 @@
+:root {
+  --main-text-color: #0c1845;
+  --accent-text-color: #ff41ed;
+  --main-font: "Noto Serif Telugu", serif;
+  --accent-font: "Roboto Mono", monospace;
+}
+
 h1,
 h3 {
   text-align: right;
   margin-right: 20px;
+  color: var(--main-text-color);
 }
 
 h1 {
   font-size: 96px;
   margin: 250px 20px 0px 0px;
+  font-family: var(--main-font);
+  font-weight: 400;
 }
 
 h3 {
-  font-size: 30px;
+  font-size: 23px;
+  letter-spacing: 0.1rem;
+  font-family: var(--accent-font);
+  font-weight: 300;
+  color: var(--accent-text-color);
+  margin-top: 0;
+}
+
+.nav-color-text {
+  color: var(--main-text-color);
+  font-family: var(--accent-font);
+}
+
+#no-active {
   text-decoration-line: line-through;
+  text-decoration-color: var(--accent-text-color);
+  text-decoration-line: line-through;
+  text-decoration-thickness: 0.15rem;
 }
