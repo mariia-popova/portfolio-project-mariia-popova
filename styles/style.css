@@ -27,6 +27,12 @@ h3 {
   color: var(--accent-text-color);
   margin-top: 0;
 }
+.buttons {
+  justify-content: center;
+}
+.home-btns {
+  margin: 80px 60px 20px;
+}
 
 .nav-color-text {
   color: var(--main-text-color);
