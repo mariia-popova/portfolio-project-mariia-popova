@@ -3,6 +3,10 @@
   --accent-text-color: #ff41ed;
   --main-font: "Noto Serif Telugu", serif;
   --accent-font: "Roboto Mono", monospace;
+  --accent-color: ;
+}
+body {
+  background-color: #f1f1f1;
 }
 
 h1,
@@ -31,16 +35,21 @@ h3 {
   justify-content: center;
 }
 .home-btns {
-  margin: 80px 60px 20px;
+  margin: 100px 50px 20px;
+  padding: 15px 20px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--main-text-color);
+  color: #f1f1f1;
 }
 
 .nav-color-text {
   color: var(--main-text-color);
   font-family: var(--accent-font);
+  font-size: 15px;
 }
 
 #no-active {
-  text-decoration-line: line-through;
   text-decoration-color: var(--accent-text-color);
   text-decoration-line: line-through;
   text-decoration-thickness: 0.15rem;
