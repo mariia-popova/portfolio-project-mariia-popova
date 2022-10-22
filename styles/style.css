@@ -9,48 +9,92 @@ body {
   background-color: #f1f1f1;
 }
 
-h1,
-h3 {
+h1 {
   text-align: right;
-  margin-right: 20px;
   color: var(--main-text-color);
 }
 
 h1 {
   font-size: 96px;
-  margin: 250px 20px 0px 0px;
+  margin: 250px 50px 0px 0px;
   font-family: var(--main-font);
   font-weight: 400;
 }
 
 h3 {
+  text-align: right;
   font-size: 23px;
   letter-spacing: 0.1rem;
   font-family: var(--accent-font);
   font-weight: 300;
   color: var(--accent-text-color);
-  margin-top: 0;
+  margin: 0 50px;
 }
 .buttons {
-  justify-content: center;
+  justify-content: right;
 }
-.home-btns {
-  margin: 100px 50px 20px;
-  padding: 15px 20px;
+.contact-home-btn {
+  margin: 60px 50px 20px;
+  padding: 15px 40px;
   border-radius: 5px;
+  border: var(--main-text-color) solid 0.5px;
   text-decoration: none;
   background-color: var(--main-text-color);
   color: #f1f1f1;
+  box-shadow: 5px 3px 5px var(--accent-text-color);
+}
+.contact-home-btn:hover {
+  border: var(--main-text-color) solid 0.5px;
+  color: var(--accent-text-color);
+  background-color: #f1f1f1;
 }
 
 .nav-color-text {
   color: var(--main-text-color);
   font-family: var(--accent-font);
   font-size: 15px;
+  margin-left: 20px;
 }
 
 #no-active {
   text-decoration-color: var(--accent-text-color);
   text-decoration-line: line-through;
   text-decoration-thickness: 0.15rem;
+}
+
+.img-fluid {
+  max-width: 80%;
+  height: auto;
+  padding: 20px 20px 0 0;
+}
+#image-app {
+  box-shadow: 3px 3px -0.3em var(--main-text-color);
+}
+
+.container {
+  margin-top: 100px;
+}
+
+.description-button {
+  display: block;
+  padding: 15px 20px;
+  margin: 20px 100px 20px 0;
+  border: var(--main-text-color) solid 0.5px;
+  border-radius: 5px;
+  text-decoration: none;
+  background-color: var(--main-text-color);
+  color: #f1f1f1;
+  box-shadow: 5px 3px 5px var(--accent-text-color);
+}
+
+.description-button:hover {
+  border: var(--main-text-color) solid 0.5px;
+  color: var(--accent-text-color);
+}
+
+p {
+  font-family: var(--accent-font);
+}
+h2 {
+  font-family: var(--main-font);
 }
