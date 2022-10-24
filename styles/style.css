@@ -47,7 +47,6 @@ h2 {
   text-decoration: none;
   background-color: var(--main-text-color);
   color: #f1f1f1;
-  box-shadow: 5px 3px 5px var(--accent-text-color);
 }
 .contact-home-btn:hover {
   border: var(--main-text-color) solid 0.5px;
@@ -86,7 +85,6 @@ h2 {
   text-decoration: none;
   background-color: var(--main-text-color);
   color: #f1f1f1;
-  box-shadow: 5px 3px 5px var(--accent-text-color);
 }
 
 .description-button:hover {
@@ -104,4 +102,27 @@ h2 {
   #image-app {
     display: none;
   }
+}
+
+.conteiner-about-page {
+  text-align: left;
+}
+.about-page-h2 {
+  font-size: 17px;
+  font-family: var(--accent-font);
+  color: var(--accent-text-color);
+}
+.about-page-h1 {
+  margin: 10px 0 0;
+  font-size: 42px;
+  text-align: left;
+}
+.about-page-p {
+  color: var(--main-text-color);
+}
+.my-photo-about-page {
+  width: 60%;
+  height: auto;
+  border-radius: 4px;
+  margin-left: 100px;
 }
