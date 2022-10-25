@@ -12,9 +12,6 @@ body {
 h1 {
   text-align: right;
   color: var(--main-text-color);
-}
-
-h1 {
   font-size: 96px;
   margin: 250px 50px 0px 0px;
   font-family: var(--main-font);
@@ -35,6 +32,7 @@ p {
 }
 h2 {
   font-family: var(--main-font);
+  color: var(--main-text-color);
 }
 .buttons {
   justify-content: right;
@@ -74,6 +72,8 @@ h2 {
 
 .container {
   margin-top: 100px;
+
+  padding: 20px 10px;
 }
 
 .description-button {
@@ -102,22 +102,29 @@ h2 {
   #image-app {
     display: none;
   }
+  .my-photo-about-page {
+    margin-bottom: 30px;
+  }
+  .container {
+    margin-top: 50px;
+  }
 }
 
 .conteiner-about-page {
   text-align: left;
 }
-.about-page-h2 {
+.content-page-h2 {
   font-size: 17px;
+  font-weight: 300;
   font-family: var(--accent-font);
   color: var(--accent-text-color);
 }
-.about-page-h1 {
+.content-page-h1 {
   margin: 10px 0 0;
   font-size: 42px;
   text-align: left;
 }
-.about-page-p {
+.content-page-p {
   color: var(--main-text-color);
 }
 .my-photo-about-page {
